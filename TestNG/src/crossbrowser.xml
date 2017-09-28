@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  <test name="firefoxTest">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="pack1.CrossBrowser"/>
+    </classes>
+  </test> 
+  
+  <test name="chromeTest">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="pack1.CrossBrowser"/>
+    </classes>
+  </test>
+  
+  <test name="ieTest">
+  <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="pack1.CrossBrowser"/>
+    </classes>
+  </test>
+</suite> 
