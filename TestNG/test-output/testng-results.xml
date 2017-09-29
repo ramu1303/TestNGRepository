@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7530" started-at="2017-09-28T09:03:35Z" finished-at="2017-09-28T09:03:43Z">
+  <suite name="Default suite" duration-ms="38307" started-at="2017-09-29T10:25:54Z" finished-at="2017-09-29T10:26:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7530" started-at="2017-09-28T09:03:35Z" finished-at="2017-09-28T09:03:43Z">
-      <class name="pack1.ErrorTextCaptureDemo">
-        <test-method status="PASS" signature="errorCapture()[pri:0, instance:pack1.ErrorTextCaptureDemo@3bfdc050]" name="errorCapture" duration-ms="7503" started-at="2017-09-28T14:33:36Z" finished-at="2017-09-28T14:33:43Z">
+    <test name="Default test" duration-ms="38307" started-at="2017-09-29T10:25:54Z" finished-at="2017-09-29T10:26:32Z">
+      <class name="pack1.CaptureScreenshot">
+        <test-method status="PASS" signature="screenshot()[pri:0, instance:pack1.CaptureScreenshot@3bfdc050]" name="screenshot" duration-ms="38277" started-at="2017-09-29T15:55:54Z" finished-at="2017-09-29T15:56:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- errorCapture -->
-      </class> <!-- pack1.ErrorTextCaptureDemo -->
+        </test-method> <!-- screenshot -->
+      </class> <!-- pack1.CaptureScreenshot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
