@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="tests">
+<suite name="DemoSuite" parallel="tests">
   <test name="firefoxTest">
   <parameter name="browser" value="firefox"/>
     <classes>

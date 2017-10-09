@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38307" started-at="2017-09-29T10:25:54Z" finished-at="2017-09-29T10:26:32Z">
+  <suite name="Suite" duration-ms="57" started-at="2017-10-09T06:45:15Z" finished-at="2017-10-09T06:45:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38307" started-at="2017-09-29T10:25:54Z" finished-at="2017-09-29T10:26:32Z">
-      <class name="pack1.CaptureScreenshot">
-        <test-method status="PASS" signature="screenshot()[pri:0, instance:pack1.CaptureScreenshot@3bfdc050]" name="screenshot" duration-ms="38277" started-at="2017-09-29T15:55:54Z" finished-at="2017-09-29T15:56:32Z">
+    <test name="Test" duration-ms="57" started-at="2017-10-09T06:45:15Z" finished-at="2017-10-09T06:45:15Z">
+      <class name="pack1.ListenerDemo">
+        <test-method status="PASS" signature="login()[pri:0, instance:pack1.ListenerDemo@3e6fa38a]" name="login" duration-ms="19" started-at="2017-10-09T12:15:15Z" finished-at="2017-10-09T12:15:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- screenshot -->
-      </class> <!-- pack1.CaptureScreenshot -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- login -->
+      </class> <!-- pack1.ListenerDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

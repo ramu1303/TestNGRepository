@@ -23,7 +23,8 @@ public void screenshot() throws Exception
 	
 	TakesScreenshot ts=(TakesScreenshot)driver;
 	File f=ts.getScreenshotAs(OutputType.FILE);
-	FileUtils.copyFile(f, new File("./screenshots/facebooklogin.png"));
+	//FileUtils.copyFile(f, new File("./screenshots/facebooklogin2.png"));
+	FileUtils.copyFile(f, new File("C:\\Users\\ram\\Desktop\\screenshot\\fb.png"));
 	System.out.println("screenshot taken");
 }
 }

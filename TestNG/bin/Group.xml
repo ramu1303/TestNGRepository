@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="false">
+<suite name="DemoSuite" parallel="true">
   <test name="Test">
   <groups>
   <run>
-  <include name="regression"/>  
+  <include name="sanity"/>  
   </run>
   </groups>
     <classes>

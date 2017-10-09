@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <test name="Test(failed)">
+  <test name="firefoxTest(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
       <class name="pack1.CrossBrowser">
@@ -10,5 +10,5 @@
         </methods>
       </class> <!-- pack1.CrossBrowser -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- firefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

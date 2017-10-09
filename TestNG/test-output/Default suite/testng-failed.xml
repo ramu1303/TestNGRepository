@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="pack1.SoftAssertDemo">
+      <class name="pack1.CrossBrowser">
         <methods>
-          <include name="method1"/>
-          <include name="hardAssert"/>
+          <include name="verifyTitle"/>
         </methods>
-      </class> <!-- pack1.SoftAssertDemo -->
+      </class> <!-- pack1.CrossBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

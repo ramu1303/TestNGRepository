@@ -30,7 +30,7 @@ public class CrossBrowser
 			 driver=new InternetExplorerDriver();
 		}
 		
-		driver.get("http://learn-automation.com/");
+		driver.get("https://www.google.com/");
 		String title=driver.getTitle();
 		System.out.println(title);
 		driver.close();

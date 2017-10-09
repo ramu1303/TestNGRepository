@@ -9,7 +9,8 @@ public class AssertDemo
 public void method1()
 {
 String name="ramu patil";
-Assert.assertTrue(name.contains("ram") , "matching the names");
+Assert.assertTrue(name.contains("z") , "matching the names");
 System.out.println("test completed");
+
 }
 }

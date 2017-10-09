@@ -14,7 +14,10 @@ public class ListenerClass implements ITestListener
 	}
 
 	@Override
-	public void onTestSuccess(ITestResult result) {}
+	public void onTestSuccess(ITestResult result) 
+	{
+		System.out.println("test case pass :"+result.getName());
+	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {}
